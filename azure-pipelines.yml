@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>CakeupTime</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aaf5a05449.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <section class="header">
+          
+            <div class="navbar">
+            <div class="logo"><a href="index.html"><img src="images/Logo4Cake.png" width="125px"></a>
+            </div>
+           <nav>
+                
+                <div class="nav-links" id="navLinks">
+                    
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="login.html">ACCOUNT</a></li>
+                        <li><a href="Package.html">PACKAGES</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                    </ul>
+                </div> 
+
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </div>
+    
+
+            <div class="text-box">
+                <h1>Cakeup<span class="cl">Time</span></h1>
+                 <p>
+                    CakeupTime are committed to trader systematic enlightment, on how to run your 
+                    cake up, 
+                    from Home without any Hassle. <br> you don't believe it or don't get it,
+                     I don't have the time to try 
+                    to convince you, sorry. <br> _Satoshi Nakamoto 
+                 </p>
+                  <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+        
+        </section>
+
+<!---------protection of funds----------->
+
+<section class="part-two">
+
+
+
+<section class="protection">
+    <h1>Protection of funds</h1>
+    <p>Reliable accountability for funds protection are highly garanteed. </p>
+
+    <div class="row">
+        <div class="protection-col">
+         <h3>Clients' segregation of funds</h3>
+         <p>CakeupTime Provides its services to over 2 milion clients in 150+ countries around the world.
+             We always strictly abide by the regulations and the protection of our clients' investment is our
+             primary concern. we are committted to providing a trusted and reliable trading environment for all our 
+             clients.
+         </p>
+        </div>
+        <div class="protection-col">
+            <h3>Intercontinental containment</h3>
+            <p>CakeupTime is regulated by the Financial Services Commission of US, we're trusted by traders worldwide
+                as their funds are segregated by our financial trust indipendent bank, ensuring real peace of miind.
+            </p>
+           </div>
+           <div class="protection-col">
+            <h3>Segregated Funds</h3>
+            <p>Clients' funds are segregated completely from the operational funds of the company and kept 
+                safe.
+            </p>
+           </div>
+    </div>
+</section>
+
+<!-------------------------------------About------------------------>
+
+<section class="about">
+    <h1>About CakeupTime</h1>
+    <p>CakeupTime is a speculative investment Firm situated all round the Globe.</p>
+
+    <div class="row">
+        <div class="about-col">
+            <img src="/images/london.png">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="/images/newyork.png">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="/images/washington.png">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------testimonial------------------>
+
+<section class="testimonials">
+      <h1>What our Client Says</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quia eos.</p>
+
+      <div class="row">
+          <div class="testimonials-col">
+              <img src="/images/user1.jpg">
+              <div>
+                  <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                      Fugiat vero incidunt soluta sint modi nam earum reiciendis 
+                      ipsum animi ullam tempore, 
+                      fuga molestiae illo facere libero aliquam doloremque cumque beatae!
+                  </p>
+                  <h3>Christine Berkley</h3>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+              </div>
+          </div>
+      
+     
+          <div class="testimonials-col">
+              <img src="/images/user2.jpg">
+              <div>
+                  <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                      Fugiat vero incidunt soluta sint modi nam earum reiciendis 
+                      ipsum animi ullam tempore, 
+                      fuga molestiae illo facere libero aliquam doloremque cumque beatae!
+                  </p>
+                  <h3>David Byer</h3>
+                  <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+              </div>
+          </div>
+        </div>
+</section>
+
+<!-------------Call To Action---------------->
+
+<section class="cta">
+    <h1>Enroll for our Various Online Offers <br> Anywhere From the world</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!------footer---------------->
+
+
+
+
+
+<!-------JavaScript for toggle menu------->
+       <script>
+
+           var navLinks = document.getElementById("navLinks")
+
+           function showMenu(){
+               navLinks.style.right = "0";
+           }
+           function hideMenu(){
+               navLinks.style.right = "-200px";
+           }
+
+       </script> 
+</section>
+    </body>
+</html>
